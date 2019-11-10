@@ -1,15 +1,17 @@
 
-  /*--- navigation bar ---*/
-  /* .navbar {
-    background-color: #fff;
-  }
+  
+  .navbar {
+    padding: 0px;
+    align-items: normal;
+   }
   
   .navbar-brand {
     color: #fff;
     cursor: pointer;
     padding: 10px;
     font-size: x-large;
-  }*/
+    
+  }
   .nav-link {
     color: #777777;
     font-size: medium;
@@ -20,15 +22,24 @@
     color: #000;
   }
 
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+  
   .navbar-brand{
     color: white !important;
       background-color: #4aaaa5;
       padding-left: 20px;
       padding-right: 20px;
       position: relative;
-      top: 0px;
-      bottom: 0px;
-      line-height: 45px;  
+      /* top: 0px;
+      bottom: 0px; */
+      /* line-height: 45px;   */
+      /* min-height: 100%; */
+      height: 100%;
+      justify-content: flex-start;
+      /* /* flex: content; */
+      bottom: 0px; 
    }
 
   .navbar-collapse {
