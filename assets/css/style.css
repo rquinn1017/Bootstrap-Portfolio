@@ -15,7 +15,6 @@
       }
   
   .navbar-brand {
-    /* color: #fff; */
     cursor: pointer;
     padding: 10px;
     font-size: x-large;
@@ -110,7 +109,7 @@ h3{
     line-height: 40px;
     position: absolute;
     top: 0;
-    left: 0;  
+    left: 20;  
     margin-top: 190px;
 }
 
@@ -118,6 +117,9 @@ h3{
    
     position: relative; 
     display: inline-block;
-    margin: 30px;    
+        margin: 30px;    
 }
 
+.portfolio{
+  margin-top: 30px;
+}
