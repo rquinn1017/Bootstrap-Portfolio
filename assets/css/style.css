@@ -15,20 +15,26 @@
       }
   
   .navbar-brand {
-    color: #fff;
+    /* color: #fff; */
     cursor: pointer;
     padding: 10px;
     font-size: x-large;
-    /* height: 100%; */
-    
-  }
+    color: #ffffff !important;
+    background-color: #4aaaa5;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    height: 100%;
+    justify-content: flex-start; 
+    margin-bottom: 0px !important;
+  } 
+  
   .nav-link {
     color: #777777;
     font-size: medium;
     margin-left: 10px;
   }
-    /* margin-right: 1em !important; */
-  
+    
   .nav-link:hover {
     color: #000;
   }
@@ -37,37 +43,12 @@
     border-color: transparent;
   }
   
-  .navbar-brand{
-    color: white !important;
-      background-color: #4aaaa5;
-      padding-left: 20px;
-      padding-right: 20px;
-      position: relative;
-      /* top: 0px;
-      bottom: 0px; */
-      /* line-height: 45px;   */
-      /* min-height: 100%; */
-      height: 100%;
-      justify-content: flex-start;
-      /* /* flex: content; */
-      /* left: 300px; */
-   }
+
 
   .navbar-collapse {
    justify-content: flex-end; 
-    /* position: relative;
-    right: 150px; */
-       /* position: absolute; */
+
   }
-
-  /* .navbar-toggler { */
-   /* background-color:#7777; */
-
-
-  /* .nav-item{
-    position: relative;
-    right: 300px;
-  }   */
 
   body{    
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/herringbone.png");
@@ -91,13 +72,8 @@ h1{
   color:#4aaaa5;
   border-bottom: solid;
   border-color: #cccccc;
-  /* padding-bottom: 20px;
-  margin: 30px; */
-  }
 
-  /* html, body {
-    height: 100%;
-  } */
+  }
 
   body {
     display: flex;
@@ -119,12 +95,7 @@ h1{
         height: 50px;
         border-top: 8px solid #4aaaa5;
         line-height: 60px;
-        /* max-height: 200px; */
-        /* vertical-align: bottom; */
-        /* display: table-cell; */
         font-size: small;
-    /* position: fixed ; */
-        /* bottom: 0px;  */
   }
 
 
