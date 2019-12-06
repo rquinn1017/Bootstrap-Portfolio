@@ -1,4 +1,13 @@
 
+
 $(document).ready(function(){
-    $('.header').height($(window).height());
+    // $('.header').height($(window).height());
+    $("#quizGame").on("click", function() {
+        window.open('https://rquinn1017.github.io/Quiz_Game/')
+        });
+
+        $('#quizGame').hover(function() {
+            $(this).css('cursor','pointer');
+})
+
 })

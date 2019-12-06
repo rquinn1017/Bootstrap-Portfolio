@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
+    <title>Portfolio</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
 
-  <title>Portfolio</title>
-
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<body>
-   
-  <!-- Start Nav -->
-  <div  class = "nav-wrapper">
-    <div class= "container-fluid">
+  <body>
+    <!-- Start Nav -->
+    <div class="nav-wrapper">
+      <div class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-           <span class="navbar-brand mb-1 h1">Rob Quinn</span> 
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-               </button>
-                    <div class="collapse navbar-collapse" id="navmenu">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-          </nav>
+          <span class="navbar-brand mb-1 h1">Rob Quinn</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navmenu"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-  </div>
+    </div>
 
+    <!-- End Nav -->
 
-<!-- End Nav -->
-
- <!-- Beginning of Portfolio -->
-  <div class= "container"> 
-        <div class="row">
+    <!-- Beginning of Portfolio -->
+    <div class="container">
+      <div class="row">
         <div class="col-md-12">
           <div class="portfolio-header">
             <h1>Portfolio</h1>
@@ -55,77 +64,96 @@
         </div>
       </div>
 
-                  <div class="row" >
-                     <div class = "col-md-4" class = "portfolio">
-                            <div class="container-fluid">
-                          <img src="assets/images/Wall.jpg" class= "img-fluid" alt="Word Guess" width= "100%">
-                          <h3>Word Guess</h3>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="col-md-4" class="portfolio">
+          <div class="container-fluid" id="quizGame">
+            <img
+              src="assets/images/QuizGame.jpg"
+              class="img-fluid"
+              alt="Quiz Game"
+              width="100%"
+            />
+            <h3>Quiz Game</h3>
+          </div>
+        </div>
 
-                   
-                        <div class = "col-md-4" >
-                            <div class = "container-fluid">
-                          <img src="assets/images/Game.jpg" class= "img-fluid" alt="RPG Game" width= "100%">
-                          <h3 >RPG Game</h3>
-                          
-                        </div>
-                    </div>
-                    
-                     <!-- <div class="portfolio" > -->
-                        <div class = "col-md-4">
-                        </div>
-                    <!-- </div> -->
-                </div>  
-  
-    
-                   <div class="row">
-                           <div class = "col-md-4">
-                              <div class = "container-fluid">
-                                <img src="assets/images/Coffee.jpg" class= "img-fluid" alt="Trivia Game" width= "100%">
-                                <h3>Trivia Game</h3>
-                            </div>
-                      </div>
-                     
-                      
-                            <div class = "col-md-4">
-                                <div class = "container-fluid">
-                                <img src="assets/images/Widget.jpg" class= "img-fluid" alt="Rutgers Info Widget" width= "100%">
-                                <h3>Rutgers Info Widget</h3>
-                            </div>
-                      </div>
-                      
-                      <div class = "col-md-4">        
-                      </div>
-                </div>  
-    
-                <div class="row" >
-                    
-                          <div class = "col-md-4">
-                              <div class = "container-fluid">
-                              <img src="assets/images/Rock.jpg" class= "img-fluid" alt="Rock Paper Scissors" width= "100%">
-                              <h3>Rock Paper Scissors</h3>
-                          </div>
-                    </div>
-                </div>           
-            </div> 
-<!-- End Portfolio -->
+        <!-- <div class="col-md-4">
+          <div class="container-fluid">
+            <img
+              src="assets/images/Game.jpg"
+              class="img-fluid"
+              alt="RPG Game"
+              width="100%"
+            />
+            <h3>RPG Game</h3>
+          </div>
+        </div>
 
-<!-- Begin footer -->
-  <footer>
-    <div>
-      Copyright &copy; 
+        <div class="col-md-4"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="container-fluid">
+            <img
+              src="assets/images/Coffee.jpg"
+              class="img-fluid"
+              alt="Trivia Game"
+              width="100%"
+            />
+            <h3>Trivia Game</h3>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="container-fluid">
+            <img
+              src="assets/images/Widget.jpg"
+              class="img-fluid"
+              alt="Rutgers Info Widget"
+              width="100%"
+            />
+            <h3>Rutgers Info Widget</h3>
+          </div>
+        </div>
+
+        <div class="col-md-4"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="container-fluid">
+            <img
+              src="assets/images/Rock.jpg"
+              class="img-fluid"
+              alt="Rock Paper Scissors"
+              width="100%"
+            />
+            <h3>Rock Paper Scissors</h3>
+          </div>
+        </div>
+      </div> -->
     </div>
-  </footer>
-<!-- End footer -->
+    <!-- End Portfolio -->
 
-<!-- jQuery CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Begin footer -->
+    <footer>
+      <div>
+        Copyright &copy;
+      </div>
+    </footer>
+    <!-- End footer -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- Bootstrap JavaScript CDN -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
