@@ -18,4 +18,12 @@ $("#pwGenerator").on("click", function() {
         $(this).css('cursor','pointer');
 })
 
+$("#dayPlanner").on("click", function() {
+    window.open('https://rquinn1017.github.io/Day_Planner/')
+    });
+
+    $('#dayPlanner').hover(function() {
+        $(this).css('cursor','pointer');
+})
+
 })
