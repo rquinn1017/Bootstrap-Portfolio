@@ -26,4 +26,12 @@ $("#dayPlanner").on("click", function() {
         $(this).css('cursor','pointer');
 })
 
+$("#weatherDash").on("click", function() {
+    window.open('https://rquinn1017.github.io/WorldOfWeather/')
+    });
+
+    $('#dayPlanner').hover(function() {
+        $(this).css('cursor','pointer');
+})
+
 })
