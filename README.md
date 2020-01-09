@@ -4,4 +4,4 @@ This is a page about me, Rob Quinn, to showcase the skills I've learned in HTML,
 
 I hope you like it.
 
-https://rquinn1017.github.io/Bootstrap-Portfolio/index.html
+Deployed Website: https://rquinn1017.github.io/My-Portfolio/
