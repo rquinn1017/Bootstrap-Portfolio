@@ -1,4 +1,4 @@
-# Bootstrap-Portfolio
+# My-Portfolio
 
 This is a page about me, Rob Quinn, to showcase the skills I've learned in HTML, CSS, JavaScript, JQuery and Bootstrap.
 
