@@ -70,16 +70,15 @@ body {
   margin-top: 20px;
   max-width: 960px;
   padding: 30px;
-  padding-bottom: 0px;
-}
+  }
 
 .container-fluid {
   max-width: 960px;
   padding: 0px;
 }
 
-#about{
-  padding-bottom: 30px;
+#portCOntainer{
+  padding-bottom: 0px;
 }
 
 .outerContainer {
@@ -124,4 +123,32 @@ h3 {
 
 .portfolio-header {
   margin-bottom: 30px;
+}
+
+.huge-text, 
+.underline-link{
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.icon-linkedin{
+    background-image: url(../images/icon-linkedin.png);
+    /* background-image: url("http://www.rleonardi.com/image/icon-linkedin.png"); */
+}
+
+.icon-email{
+  background-image: url(../images/icon-email.png);
+
+}
+
+.icon-GitHub{
+  background-image: url(../images/icon-GitHub.png);
+
+}
+.icon {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin-right: 8px;
+  display: inline-block;
 }

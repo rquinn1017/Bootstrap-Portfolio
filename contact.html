@@ -1,89 +1,119 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
+    <title>About | Rob Quinn</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
 
-  <title>Contact</title>
-
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<body>
-     
+  <body>
     <!-- Start Nav -->
-     <div  class = "nav-wrapper">
-        <div class= "container-fluid">
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
-              <a class="navbar-brand mb-1 h1" href="index.html">Rob Quinn</a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu"
-                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                   </button>
-                        <div class="collapse navbar-collapse" id="navmenu">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <!-- <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li> -->
-                            </ul>
-                        </div>
-              </nav>
-          </div>
-      </div>
-    <!-- End Nav -->
-
-    <!-- Start Contact Form -->
-
-    <div class="container">
-          <h1>Contact</h1>
-              <form>
-                  
-                  <div class="form-group" >
-                    <label for="Name">Name</label Id = "form">
-                    <input type="text" class="form-control" placeholder="John Smith">
-                   </div>
-    
-                    <div class="form-group"class="container">
-                        <label for="exampleFormControlInput1">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
-                      </div>
-    
-                  <div class="form-group" class="container">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                  </div>
-                  <input type="submit">
-              </form>
-    </div> 
-    <!-- End contact form -->
-    
-    <!-- Start Footer -->
-    <footer>
-            <div>
-              Copyright &copy; 
+    <div class="wrapper">
+      <div class="nav-wrapper">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="navbar-brand mb-1 h1">Rob Quinn</div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navmenu"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
-     </footer>
-     <!-- End Footer    -->
+          </nav>
+        </div>
+      </div>
+      <!-- End Nav -->
 
-     
-        <!-- jQuery CDN -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        
-        <!-- Bootstrap JavaScript CDN -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        </body>
-        
-        </html>
+      <!-- Start main container    -->
+      <div class="outerContainer">
+        <div class="container">
+          <h1>Contact</h1>
+          <div class="contact-modal-content">
+            <!-- <a
+              href="mailto:rob.m.quinn@gmail.com"
+              class="huge-text underline-link"
+              ><span>rob.m.quinn@gmail.com</span></a
+            >
+            <br /> -->
+
+            <a href="mailto:rob.m.quinn@gmail.com" target="_blank">
+              <div class="icon icon-email"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/rob-quinn/" target="_blank">
+              <div class="icon icon-linkedin"></div>
+            </a>
+            <a href="https://github.com/rquinn1017/" target="_blank">
+              <div class="icon icon-GitHub"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <!-- End main container -->
+
+      <div class="push"></div>
+    </div>
+
+    <!-- Start footer -->
+    <footer class="footer">
+      <div class="contact-modal-content">
+        <!-- <a
+          href="mailto:rob.m.quinn@gmail.com"
+          class="huge-text underline-link"
+          ><span>rob.m.quinn@gmail.com</span></a
+        >
+        <br /> -->
+
+        <a href="mailto:rob.m.quinn@gmail.com" target="_blank">
+          <div class="icon icon-email"></div>
+        </a>
+        <a href="https://www.linkedin.com/in/rob-quinn/" target="_blank">
+          <div class="icon icon-linkedin"></div>
+        </a>
+        <a href="https://github.com/rquinn1017/" target="_blank">
+          <div class="icon icon-GitHub"></div>
+        </a>
+      </div>
+    </footer>
+
+    <!-- End footer -->
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
