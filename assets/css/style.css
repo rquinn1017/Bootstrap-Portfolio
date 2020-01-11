@@ -1,14 +1,12 @@
 html {
   overflow-y: scroll;
-  
-
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
-
 
 .bg-light {
   background-color: #ffffff !important;
@@ -65,7 +63,6 @@ html, body {
 body {
   background: url("https://www.toptal.com/designers/subtlepatterns/patterns/herringbone.png");
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  /* margin-bottom: 80px; */
 }
 
 .container {
@@ -73,18 +70,17 @@ body {
   margin-top: 20px;
   max-width: 960px;
   padding: 30px;
-
-  }
+  padding-bottom: 0px;
+}
 
 .container-fluid {
   max-width: 960px;
   padding: 0px;
 }
 
-/* #profileMain{
-  height: 100%;
-  margin-bottom: -56px;
-} */
+.outerContainer {
+  margin-bottom: 20px;
+}
 
 h1 {
   color: #4aaaa5;
@@ -92,31 +88,22 @@ h1 {
   border-color: #cccccc;
 }
 
-/* body {
-  display: flex;
-  flex-direction: column;
-} */
-
-/* .footer {
-  flex-shrink: 0;
-} */
-
 footer {
-  /* position: fixed;
-  left: 0;
-  bottom: 0; */
   width: 100%;
   text-align: center;
   background-color: #666666;
   color: #999999;
   height: 50px;
   border-top: 8px solid #4aaaa5;
-  /* line-height: 60px; */
   font-size: small;
 }
 
 .push {
   height: 50px;
+}
+
+.portfolioPush {
+  height: 20px;
 }
 
 /*h3  set the overlay on the porfolio page*/
