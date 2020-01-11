@@ -78,6 +78,10 @@ body {
   padding: 0px;
 }
 
+#about{
+  padding-bottom: 30px;
+}
+
 .outerContainer {
   margin-bottom: 20px;
 }
